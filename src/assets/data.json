@@ -1,0 +1,172 @@
+{
+    "set1": {
+        "question": "Who are you to yourself?",
+        "choices": {
+            "choice1": {
+                "value": "A Friend"
+            },
+            "choice2": {
+                "value": "A Foe",
+                "nestedSet": {
+                    "question": "Well, why do you say so?",
+                    "choices": {
+                        "choice1": {
+                            "value": "I always do things that harm me",
+                            "nestedSet": {
+                                "question": "Sounds like you're already done with yourself",
+                                "choices": {
+                                    "choice1": {
+                                        "value": "I always do things that harm me",
+                                        "endGame": "Yes continue harming yourself"
+                                    },
+                                    "choice2": {
+                                        "value": "Not sure, doesn't really matter",
+                                        "endGame": "Of course YOU DON'T MATTER"
+                                    },
+                                    "choice3": {
+                                        "value": "Why do you care?",
+                                        "endGame": "Because I AM YOUR FOE"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "choice3": {
+                "value": "Nobody",
+                "properties": {
+                    "visible": false
+                }
+            }
+        }
+    },
+    "set2": {
+        "question": "Oh really? Let's find out then :)",
+        "choices": {
+            "choice1": {
+                "value": "Sure!"
+            }
+        }
+    },
+    "set3": {
+        "question": "What do you do when faced with failure?",
+        "choices": {
+            "choice1": {
+                "value": "Learn from it and try again",
+                "nestedSet": {
+                    "question": "How do you make sure you don't repeat the same mistake?",
+                    "choices": {
+                        "choice1": {
+                            "value": "I reflect on my actions and improve",
+                            "endGame": "You are on the path to becoming a resilient and wise individual. Well done!"
+                        },
+                        "choice2": {
+                            "value": "I just wing it and hope for the best",
+                            "endGame": "Your lack of effort makes it hard to progress. Think deeply about your approach!"
+                        }
+                    }
+                }
+            },
+            "choice2": {
+                "value": "Blame others for my failure",
+                "nestedSet": {
+                    "question": "What if blaming others doesn't fix anything?",
+                    "choices": {
+                        "choice1": {
+                            "value": "Then I just give up and complain",
+                            "endGame": "You are slipping into negativity and self-pity. This leads to nowhere!"
+                        },
+                        "choice2": {
+                            "value": "I manipulate situations to my advantage",
+                            "endGame": "Your actions are harmful to others and yourself. Reflect on this destructive path."
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "set4": {
+        "question": "What do you value most in relationships?",
+        "choices": {
+            "choice1": {
+                "value": "Honesty and trust",
+                "nestedSet": {
+                    "question": "How do you ensure honesty in your relationships?",
+                    "choices": {
+                        "choice1": {
+                            "value": "I communicate openly and listen",
+                            "endGame": "You are nurturing healthy and meaningful relationships. Great job!"
+                        },
+                        "choice2": {
+                            "value": "I expect honesty from others but keep my secrets",
+                            "endGame": "This imbalance in expectations may harm your relationships. Consider being more transparent."
+                        }
+                    }
+                }
+            },
+            "choice2": {
+                "value": "Control and power",
+                "nestedSet": {
+                    "question": "Why do you think controlling others is important?",
+                    "choices": {
+                        "choice1": {
+                            "value": "Because it makes me feel superior",
+                            "endGame": "This is a toxic behavior. True strength lies in mutual respect, not domination."
+                        },
+                        "choice2": {
+                            "value": "It helps me avoid being hurt",
+                            "endGame": "Using control as a shield will isolate you. Reflect on healthier ways to build trust."
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "set5": {
+        "question": "You see someone struggling on the street. What do you do?",
+        "choices": {
+            "choice1": {
+                "value": "Offer them help or assistance",
+                "endGame": "Your empathy and kindness make you a positive force in the world. Keep it up!"
+            },
+            "choice2": {
+                "value": "Ignore them and move on",
+                "endGame": "Turning a blind eye to others' struggles can make you cold and indifferent."
+            },
+            "choice3": {
+                "value": "Mock them or take advantage",
+                "endGame": "Your actions reveal a lack of empathy and kindness. Reconsider your choices."
+            }
+        }
+    },
+    "set6": {
+        "question": "What motivates your actions in life?",
+        "choices": {
+            "choice1": {
+                "value": "Helping others and making the world better",
+                "endGame": "Your selflessness and drive to improve the world are inspiring. You are becoming a truly good human!"
+            },
+            "choice2": {
+                "value": "Achieving success at any cost",
+                "nestedSet": {
+                    "question": "What if your success harms others?",
+                    "choices": {
+                        "choice1": {
+                            "value": "It doesn't matter as long as I succeed",
+                            "endGame": "Your selfishness is leading you down a harmful path. Success isn't everything."
+                        },
+                        "choice2": {
+                            "value": "I’ll try to minimize harm but won't stop",
+                            "endGame": "Ambition is good, but remember to balance it with compassion."
+                        }
+                    }
+                }
+            },
+            "choice3": {
+                "value": "Revenge or proving others wrong",
+                "endGame": "Motivating yourself with negativity and anger will only lead to more pain. Seek positive goals."
+            }
+        }
+    }
+}
