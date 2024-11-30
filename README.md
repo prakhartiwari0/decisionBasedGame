@@ -1,5 +1,5 @@
-# Vue 3 + Vite
+# Game of Decisions
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+A game that makes you question your decisions and decide if you're a friend of yourself or an enemy
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+![image](https://github.com/user-attachments/assets/dc5c1f9a-748a-4e89-ab88-a66ceb93f2c4)
